@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Star Trek: Unity - A Powered by the Apocalypse RPG set during the Dominion War">
+    <meta name="keywords" content="Star Trek, RPG, Tabletop, PbtA, Powered by the Apocalypse, Dominion War">
+    <meta name="author" content="Your Name">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Star Trek: Unity - A PbtA RPG">
+    <meta property="og:description" content="Create your crew, build your ship, and face impossible odds in the final days of the Dominion War.">
+    <meta property="og:url" content="https://yourusername.github.io/star-trek-pbta">
+    
+    <title>Star Trek: Unity - A Powered by the Apocalypse RPG</title>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lcars.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/starfleet-logo.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/images/starfleet-logo.png" alt="Starfleet Logo" class="logo">
+                <span class="site-title">STAR TREK: UNITY</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="pages/rules.html">Rules</a></li>
+                <li><a href="pages/character-creation.html">Character Creation</a></li>
+                <li><a href="playbooks/">Playbooks</a></li>
+                <li><a href="species/">Species</a></li>
+                <li><a href="pages/ship-building.html">Ship Building</a></li>
+                <li><a href="ships/">Ships</a></li>
+                <li><a href="pages/gm-guide.html">GM Guide</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">STARFLEET COMMAND</div>
+            <h1 class="hero-title">STAR TREK: UNITY</h1>
+            <p class="hero-subtitle">A Powered by the Apocalypse RPG</p>
+            <p class="hero-tagline">"In the darkest times, we find what truly binds us together."</p>
+            
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-label">STARDATE</span>
+                    <span class="stat-value">52XXX.X</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">YEAR</span>
+                    <span class="stat-value">2375</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">STATUS</span>
+                    <span class="stat-value alert">WAR</span>
+                </div>
+            </div>
+
+            <div class="cta-buttons">
+                <a href="pages/rules.html" class="btn btn-primary">Read the Rules</a>
+                <a href="pages/character-creation.html" class="btn btn-secondary">Create a Character</a>
+                <a href="#quickstart" class="btn btn-tertiary">Quick Start</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Introduction Section -->
+    <section class="intro-section">
+        <div class="container">
+            <div class="lcars-frame">
+                <h2 class="section-title">Mission Briefing</h2>
+                <div class="intro-content">
+                    <div class="intro-text">
+                        <p class="lead">The Dominion War grinds on. Starfleet is stretched thin, ships are lost daily, and everyone is one bad decision away from disaster.</p>
+                        
+                        <p>But you? You're still here. Your crew has survived impossible odds, held the line when others couldn't, and kept going when every logical voice said to give up.</p>
+                        
+                        <p><strong>Star Trek: Unity</strong> is a tabletop RPG where you play the crew of a Federation starship during the final, desperate stages of the Dominion War. Using the Powered by the Apocalypse engine, you'll face combat, moral dilemmas, and the daily grind of keeping a ship together—all while finding moments of humor, connection, and hope.</p>
+                        
+                        <p class="highlight">Think <em>Voyager</em> meets <em>Lower Decks</em>: funny, heartfelt, and full of impossible situations.</p>
+                    </div>
+                    
+                    <div class="intro-features">
+                        <div class="feature-card">
+                            <div class="feature-icon">👥</div>
+                            <h3>Build Your Crew</h3>
+                            <p>Choose from 8 role playbooks and 12 species. Create a Captain, Engineer, Doctor, or any bridge crew member.</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">🚀</div>
+                            <h3>Build Your Ship</h3>
+                            <p>Collaborate to design your vessel. Is it a tough Defiant-class escort or a science-focused Intrepid?</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">⚔️</div>
+                            <h3>Face Impossible Odds</h3>
+                            <p>The Dominion War creates constant pressure. Can your crew hold together when everything falls apart?</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">🎭</div>
+                            <h3>Tell Your Story</h3>
+                            <p>Episodic play with season-long arcs. Every session matters, every choice has weight.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Start Section -->
+    <section id="quickstart" class="quickstart-section">
+        <div class="container">
+            <h2 class="section-title">Quick Start Guide</h2>
+            
+            <div class="quickstart-grid">
+                <div class="quickstart-step">
+                    <div class="step-number">01</div>
+                    <h3>What You Need</h3>
+                    <ul>
+                        <li>3-6 players (1 GM + 2-5 crew)</li>
+                        <li>2d6 per player</li>
+                        <li>Character sheets</li>
+                        <li>Ship sheet</li>
+                        <li>3-4 hours</li>
+                    </ul>
+                </div>
+                
+                <div class="quickstart-step">
+                    <div class="step-number">02</div>
+                    <h3>Create Characters</h3>
+                    <ul>
+                        <li>Choose a Role (job)</li>
+                        <li>Choose a Species</li>
+                        <li>Pick your stats</li>
+                        <li>Select starting moves</li>
+                        <li>Answer character questions</li>
+                    </ul>
+                    <a href="pages/character-creation.html" class="step-link">Full Guide →</a>
+                </div>
+                
+                <div class="quickstart-step">
+                    <div class="step-number">03</div>
+                    <h3>Build Your Ship</h3>
+                    <ul>
+                        <li>Choose a ship class</li>
+                        <li>Answer story questions</li>
+                        <li>Assign personality traits</li>
+                        <li>Establish quirks & history</li>
+                        <li>Record system values</li>
+                    </ul>
+                    <a href="pages/ship-building.html" class="step-link">Full Guide →</a>
+                </div>
+                
+                <div class="quickstart-step">
+                    <div class="step-number">04</div>
+                    <h3>Play!</h3>
+                    <ul>
+                        <li>GM sets the scene</li>
+                        <li>Players describe actions</li>
+                        <li>Roll when moves trigger</li>
+                        <li>Manage Cohesion & Pressure</li>
+                        <li>Tell an amazing story</li>
+                    </ul>
+                    <a href="pages/rules.html" class="step-link">Core Rules →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Mechanics Preview -->
+    <section class="mechanics-section">
+        <div class="container">
+            <h2 class="section-title">Core Mechanics</h2>
+            
+            <div class="mechanics-grid">
+                <div class="mechanic-card">
+                    <h3>Four Stats</h3>
+                    <div class="stat-list">
+                        <div class="stat-item-small">
+                            <strong>Protocol</strong>
+                            <span>Training, command, regulations</span>
+                        </div>
+                        <div class="stat-item-small">
+                            <strong>Science</strong>
+                            <span>Analysis, tech, understanding</span>
+                        </div>
+                        <div class="stat-item-small">
+                            <strong>Daring</strong>
+                            <span>Bold action, combat, improvisation</span>
+                        </div>
+                        <div class="stat-item-small">
+                            <strong>Heart</strong>
+                            <span>Empathy, morale, connection</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mechanic-card">
+                    <h3>Cohesion</h3>
+                    <p>A shared resource representing crew unity. Spend it for bonuses, gain it through teamwork, lose it through conflict.</p>
+                    <div class="cohesion-track">
+                        <span class="cohesion-pip active"></span>
+                        <span class="cohesion-pip active"></span>
+                        <span class="cohesion-pip active"></span>
+                        <span class="cohesion-pip"></span>
+                        <span class="cohesion-pip"></span>
+                        <span class="cohesion-pip"></span>
+                    </div>
+                    <p class="mechanic-note">Start at 3, max 6</p>
+                </div>
+                
+                <div class="mechanic-card">
+                    <h3>Pressure</h3>
+                    <p>A countdown clock tracking damage, scarcity, and war strain. At 9/9, something catastrophic happens.</p>
+                    <div class="pressure-track">
+                        <span class="pressure-segment">0-2</span>
+                        <span class="pressure-segment active">3-5</span>
+                        <span class="pressure-segment">6-8</span>
+                        <span class="pressure-segment alert">9</span>
+                    </div>
+                    <p class="mechanic-note">Reduces at starbases</p>
+                </div>
+                
+                <div class="mechanic-card">
+                    <h3>Coordinate</h3>
+                    <p>Collaborative ship action. Everyone rolls, count successes, resolve together. Teamwork makes the dream work.</p>
+                    <div class="dice-example">
+                        <span class="die">⚅</span>
+                        <span class="die">⚄</span>
+                        <span class="plus">+</span>
+                        <span class="stat-bonus">Stat</span>
+                    </div>
+                    <p class="mechanic-note">6- / 7-9 / 10+ resolution</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Downloads Section -->
+    <section class="downloads-section">
+        <div class="container">
+            <h2 class="section-title">Downloads</h2>
+            <div class="downloads-grid">
+                <div class="download-card">
+                    <div class="download-icon">📄</div>
+                    <h3>Character Sheet</h3>
+                    <p>Fillable PDF for player characters</p>
+                    <a href="downloads/character-sheet.pdf" class="btn btn-download" download>Download PDF</a>
+                </div>
+                
+                <div class="download-card">
+                    <div class="download-icon">🚀</div>
+                    <h3>Ship Sheet</h3>
+                    <p>Track your vessel's systems and stats</p>
+                    <a href="downloads/ship-sheet.pdf" class="btn btn-download" download>Download PDF</a>
+                </div>
+                
+                <div class="download-card">
+                    <div class="download-icon">📋</div>
+                    <h3>Quick Reference</h3>
+                    <p>Basic moves and rules at a glance</p>
+                    <a href="downloads/quick-reference.pdf" class="btn btn-download" download>Download PDF</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Star Trek: Unity</h4>
+                    <p>A fan-created tabletop RPG powered by the Apocalypse engine.</p>
+                    <p class="footer-version">Version 0.1.0 Alpha</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="pages/rules.html">Core Rules</a></li>
+                        <li><a href="playbooks/">Playbooks</a></li>
+                        <li><a href="species/">Species</a></li>
+                        <li><a href="ships/">Ship Classes</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="pages/gm-guide.html">GM Guide</a></li>
+                        <li><a href="downloads/character-sheet.pdf">Character Sheet</a></li>
+                        <li><a href="downloads/ship-sheet.pdf">Ship Sheet</a></li>
+                        <li><a href="https://github.com/yourusername/star-trek-pbta">GitHub</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <p class="legal-text">Star Trek and all related marks, logos and characters are owned by CBS Studios Inc. This is a fan work and is not officially endorsed.</p>
+                    <p class="legal-text">Based on <em>Apocalypse World</em> by D. Vincent Baker & Meguey Baker.</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Your Name. Licensed under <a href="LICENSE">CC BY-SA 4.0</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
