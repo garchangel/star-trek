@@ -1,0 +1,40 @@
+# Site Settings
+title: "Star Trek: Unity"
+subtitle: "A Powered by the Apocalypse RPG"
+description: "A Star Trek tabletop RPG set in the final days of the Dominion War, powered by the Apocalypse engine. Create your crew, build your ship, and face impossible odds together."
+baseurl: "/star-trek"
+url: "https://garchangel.github.io"
+
+# Theme
+theme: null
+markdown: kramdown
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Rules"
+    url: "/pages/rules.html"
+  - title: "Character Creation"
+    url: "/pages/character-creation.html"
+  - title: "Playbooks"
+    url: "/playbooks/"
+  - title: "Species"
+    url: "/species/"
+  - title: "Ship Building"
+    url: "/pages/ship-building.html"
+  - title: "Ships"
+    url: "/ships/"
+  - title: "GM Guide"
+    url: "/pages/gm-guide.html"
+
+# Social
+github_username: garchangel
+repository: star-trek
+
+# Build settings
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
